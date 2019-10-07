@@ -1,0 +1,43 @@
+/*
+/* App Styles
+*/
+
+/* Font imports */
+
+@font-face {
+  font-family: "BeVietnam";
+  src: url("/assets/fonts/Be_Vietnam/BeVietnam-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "BeVietnam";
+  src: url("/assets/fonts/Be_Vietnam/BeVietnam-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+html,
+body {
+  font-family: "BeVietnam", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: grey;
+  padding-bottom: 25px;
+}
+
+p {
+  color: grey;
+}
+
+.imp {
+  font-weight: bold;
+  color: #F23F46;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 1px;
+}
